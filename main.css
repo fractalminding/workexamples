@@ -25,7 +25,11 @@ font-size: 35px;
 }
 
 h1, h2 {
+<<<<<<< HEAD
   color: #ffa0d9;
+=======
+color: #ed63b6;
+>>>>>>> 5fe85a74d00cae30621ee8a5da6ae0d3304ecaa2
 }
 
 * {
@@ -66,10 +70,17 @@ border-radius: 10px;
   margin: 0px;
 }
 a {
+<<<<<<< HEAD
 color: #d8fff7 !important;
 text-decoration: none;
 margin-right: 50px !important;
 background: #ffa0d9;
+=======
+color: #fff !important;
+text-decoration: none;
+margin-right: 50px !important;
+background: #ed63b6;
+>>>>>>> 5fe85a74d00cae30621ee8a5da6ae0d3304ecaa2
 border-radius: 10px;
 padding: 4px 13px;
 }
