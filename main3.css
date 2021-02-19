@@ -1,0 +1,10 @@
+@font-face {
+    font-family: gardens;
+    src: url(assets/Gardens-CM-Regular/Gardens-CM-Regular.ttf);
+}
+
+body {
+    margin: 0px auto;
+    width: 100%;
+    font-family: gardens;
+}

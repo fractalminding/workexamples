@@ -1,0 +1,93 @@
+@font-face {
+    font-family: gardens;
+    src: url(assets/Gardens-CM-Regular/Gardens-CM-Regular.ttf);
+}
+
+body {
+    margin: 0px auto;
+    width: 100%;
+    max-width: 600px;
+/*     outline: 1px solid orange; */
+    background-color: #454545;
+    font-family: gardens;
+}
+
+header {
+    max-width: 100%;
+/*     outline: 1px solid orange; */
+    position: relative;
+    
+}
+
+skills-outer {
+    width: 100%;
+/*     outline: 1px solid orange; */
+/*     margin: 0px 0px 80px ; */
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+skills {
+    
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+/*     position: absolute; */
+    top: 0px;
+    
+    margin: 0px auto;
+    z-index: -1;
+/*     outline: 1px solid orange; */
+}
+
+header left-bar, header right-bar {
+    display: inline-block;
+    width: 50%;
+/*     outline: 1px solid orange; */
+    vertical-align: top;
+/*     margin: 0px 0px 13% ; */
+}
+
+header right-bar {
+    text-align: right;
+}
+
+header bottom-bar {
+/*     outline: 1px solid orange; */
+    width: 100%;
+    display: inline-block;
+}
+
+header bottom-bar {
+    text-align: center;
+/*     background-color: #817c80ad; */
+    padding: 5px;
+}
+
+header bottom-bar name {
+    display: block;
+    color: white;
+    font-size: 26px;
+}
+
+header bottom-bar specialty {
+    display: block;
+    color: #fbfbfb;
+    font-size: 23px;
+}
+
+skill-outer {
+    display: block;
+    margin: 25px 10px;
+}
+
+skill {
+    background-color: #5a6163;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 17px;
+}
