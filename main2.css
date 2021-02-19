@@ -6,88 +6,63 @@
 body {
     margin: 0px auto;
     width: 100%;
-    max-width: 600px;
+    max-width: 800px;
 /*     outline: 1px solid orange; */
     background-color: #454545;
     font-family: gardens;
 }
 
 header {
-    max-width: 100%;
+    width: 350px;
+/*     display: block; */
 /*     outline: 1px solid orange; */
     position: relative;
-    
-}
-
-skills-outer {
-    width: 100%;
-/*     outline: 1px solid orange; */
-/*     margin: 0px 0px 80px ; */
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
+    height: 300px;
+    margin: 0px auto;
+    background-image: url('assets/images/avatar.jpg');
+    background-size: contain;
+    background-position: center center;
 }
 
 skills {
-    
-}
-
-header img {
-    max-width: 100%;
-    height: auto;
-/*     position: absolute; */
-    top: 0px;
-    
+/*     padding: 5px; */
+    display: block;
     margin: 0px auto;
-    z-index: -1;
+    text-align: center;
+/*     width: 350px; */
+/*     height: 300px; */
+    position: absolute;
 /*     outline: 1px solid orange; */
+    bottom: 0px;
 }
 
-header left-bar, header right-bar {
+skill {
+    background-color: #99b8c17d;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 17px;
+    margin: 4px 1px;
     display: inline-block;
-    width: 50%;
-/*     outline: 1px solid orange; */
-    vertical-align: top;
-/*     margin: 0px 0px 13% ; */
+    vertical-align: bottom;
 }
 
-header right-bar {
-    text-align: right;
-}
-
-header bottom-bar {
+bio {
 /*     outline: 1px solid orange; */
     width: 100%;
     display: inline-block;
-}
-
-header bottom-bar {
     text-align: center;
-/*     background-color: #817c80ad; */
     padding: 5px;
 }
 
-header bottom-bar name {
+bio name {
     display: block;
     color: white;
     font-size: 26px;
 }
 
-header bottom-bar specialty {
+bio specialty {
     display: block;
     color: #fbfbfb;
     font-size: 23px;
-}
-
-skill-outer {
-    display: block;
-    margin: 25px 10px;
-}
-
-skill {
-    background-color: #5a6163;
-    color: white;
-    padding: 5px;
-    border-radius: 5px;
-    font-size: 17px;
 }
