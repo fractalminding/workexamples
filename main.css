@@ -6,5 +6,132 @@
 body {
     margin: 0px auto;
     width: 100%;
+    max-width: 800px;
+/*     outline: 1px solid orange; */
+    background-color: #454545;
     font-family: gardens;
+}
+
+body > * {
+    display: block;
+}
+
+header {
+    width: 350px;
+/*     display: block; */
+/*     outline: 1px solid orange; */
+    position: relative;
+    height: 300px;
+    margin: 0px auto;
+    background-image: url('assets/images/avatar.jpg');
+    background-size: contain;
+    background-position: center center;
+}
+
+skills {
+/*     padding: 5px; */
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+/*     width: 350px; */
+/*     height: 300px; */
+    position: absolute;
+/*     outline: 1px solid orange; */
+    bottom: 0px;
+}
+
+project-skills {
+    display: block;
+    margin: 10px 0px;
+}
+
+skill {
+    background-color: #99b8c17d;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 17px;
+    margin: 4px 1px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+bio {
+/*     outline: 1px solid orange; */
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+
+bio name {
+    display: block;
+    color: white;
+    font-size: 26px;
+}
+
+bio specialty {
+    display: block;
+    color: #fbfbfb;
+    font-size: 23px;
+}
+
+content {
+    display: block;
+    margin: 15px;
+    color: white;
+}
+
+description {
+    display: block;
+    margin: 0px auto 40px;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 23px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+project {
+    display: block;
+    margin-bottom: 40px;
+}
+
+.photos {
+    text-align: center;
+}
+
+.photos img {
+    height: 100px;
+    border-radius: 5px;
+}
+
+project .text {
+    color: #e8d2a5;
+    margin: 20px 0px;
+}
+
+.openbutton {
+    display: inline-block;
+    color: white;
+    text-decoration: underline;
+    margin-right: 10px;
+}
+.githublink {
+    display: inline-block;
+    color: #454545;
+    
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 3px;
+    vertical-align: bottom;
 }
