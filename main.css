@@ -123,11 +123,13 @@ project .text {
     display: inline-block;
     color: white;
     text-decoration: underline;
+    margin-right: 10px;
 }
 .githublink {
     display: inline-block;
     color: #454545;
-    margin-left: 30px;
+    
+    margin-top: 10px;
     background-color: white;
     border-radius: 5px;
     padding: 3px;
