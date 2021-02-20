@@ -40,6 +40,11 @@ skills {
     bottom: 0px;
 }
 
+project-skills {
+    display: block;
+    margin: 20px 0px;
+}
+
 skill {
     background-color: #99b8c17d;
     color: white;
@@ -73,12 +78,14 @@ bio specialty {
 
 content {
     display: block;
-    margin: 10px;
+    margin: 15px;
     color: white;
 }
 
 description {
-    
+    display: block;
+    margin: 0px auto 40px;
+    max-width: 600px;
 }
 
 h1 {
@@ -92,14 +99,36 @@ h2 {
     font-weight: normal;
 }
 
+project {
+    display: block;
+    margin-bottom: 40px;
+}
+
 .photos {
     text-align: center;
 }
 
 .photos img {
     height: 100px;
+    border-radius: 5px;
 }
 
-.openbutton, .githublink {
+project .text {
+    color: #e8d2a5;
+    margin: 20px 0px;
+}
+
+.openbutton {
     display: inline-block;
+    color: white;
+    text-decoration: underline;
+}
+.githublink {
+    display: inline-block;
+    color: #454545;
+    margin-left: 30px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 3px;
+    vertical-align: bottom;
 }
