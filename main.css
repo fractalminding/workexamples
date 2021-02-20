@@ -42,7 +42,7 @@ skills {
 
 project-skills {
     display: block;
-    margin: 20px 0px;
+    margin: 10px 0px;
 }
 
 skill {
@@ -97,6 +97,7 @@ h1 {
 h2 {
     font-size: 23px;
     font-weight: normal;
+    margin-bottom: 10px;
 }
 
 project {
