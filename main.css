@@ -1,81 +1,105 @@
 @font-face {
-  font-family: comfortaa;
-  src: url(assets/comfortaaFont/Comfortaa-Light.ttf);
-}
-
-#description {
-  margin: 20px;
+    font-family: gardens;
+    src: url(assets/Gardens-CM-Regular/Gardens-CM-Regular.ttf);
 }
 
 body {
-  font-family: comfortaa;
-  margin: 0px auto;
-  max-width: 1000px;
-  line-height: 35px;
-/*     background-color: #e7dddd; */
-color: #09015f;
+    margin: 0px auto;
+    width: 100%;
+    max-width: 800px;
+/*     outline: 1px solid orange; */
+    background-color: #454545;
+    font-family: gardens;
+}
+
+body > * {
+    display: block;
+}
+
+header {
+    width: 350px;
+/*     display: block; */
+/*     outline: 1px solid orange; */
+    position: relative;
+    height: 300px;
+    margin: 0px auto;
+    background-image: url('assets/images/avatar.jpg');
+    background-size: contain;
+    background-position: center center;
+}
+
+skills {
+/*     padding: 5px; */
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+/*     width: 350px; */
+/*     height: 300px; */
+    position: absolute;
+/*     outline: 1px solid orange; */
+    bottom: 0px;
+}
+
+skill {
+    background-color: #99b8c17d;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 17px;
+    margin: 4px 1px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+bio {
+/*     outline: 1px solid orange; */
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+
+bio name {
+    display: block;
+    color: white;
+    font-size: 26px;
+}
+
+bio specialty {
+    display: block;
+    color: #fbfbfb;
+    font-size: 23px;
+}
+
+content {
+    display: block;
+    margin: 10px;
+    color: white;
+}
+
+description {
+    
 }
 
 h1 {
-font-size: 50px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: normal;
 }
 
 h2 {
-font-size: 35px;
-}
-
-h1, h2 {
-color: #ed63b6;
-}
-
-* {
-/*     outline: 1px dotted magenta; */
-  margin: 20px 5px;
-}
-
-.project {
-/*   outline: 1px dotted magenta; */
-margin-bottom: 40px;
-padding: 5px;
-background-color: #d8fff7;
-border-radius: 10px;
-}
-
-.project .text {
-/*   color: #295939; */
-}
-
-.project, .photos * {
-/*   border: 3px solid #e7dddd; */
+    font-size: 23px;
+    font-weight: normal;
 }
 
 .photos {
-  white-space: nowrap;
-  max-width: 100%;
-  overflow-x: auto;
-  text-align: center;
-
+    text-align: center;
 }
 
-.photos * {
-  display: inline-block;
-  max-height: 200px;
-  border-radius: 10px;
-}
-.links * {
-  margin: 0px;
-}
-a {
-color: #fff !important;
-text-decoration: none;
-margin-right: 50px !important;
-background: #ed63b6;
-border-radius: 10px;
-padding: 4px 13px;
+.photos img {
+    height: 100px;
 }
 
-
-.links > * {
-/*     margin-right: 30px; */
-  display: inline-block;
+.openbutton, .githublink {
+    display: inline-block;
 }
