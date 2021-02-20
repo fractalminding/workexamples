@@ -1,81 +1,10 @@
 @font-face {
-  font-family: comfortaa;
-  src: url(assets/comfortaaFont/Comfortaa-Light.ttf);
-}
-
-#description {
-  margin: 20px;
+    font-family: gardens;
+    src: url(assets/Gardens-CM-Regular/Gardens-CM-Regular.ttf);
 }
 
 body {
-  font-family: comfortaa;
-  margin: 0px auto;
-  max-width: 1000px;
-  line-height: 35px;
-/*     background-color: #e7dddd; */
-color: #09015f;
-}
-
-h1 {
-font-size: 50px;
-}
-
-h2 {
-font-size: 35px;
-}
-
-h1, h2 {
-color: #ed63b6;
-}
-
-* {
-/*     outline: 1px dotted magenta; */
-  margin: 20px 5px;
-}
-
-.project {
-/*   outline: 1px dotted magenta; */
-margin-bottom: 40px;
-padding: 5px;
-background-color: #d8fff7;
-border-radius: 10px;
-}
-
-.project .text {
-/*   color: #295939; */
-}
-
-.project, .photos * {
-/*   border: 3px solid #e7dddd; */
-}
-
-.photos {
-  white-space: nowrap;
-  max-width: 100%;
-  overflow-x: auto;
-  text-align: center;
-
-}
-
-.photos * {
-  display: inline-block;
-  max-height: 200px;
-  border-radius: 10px;
-}
-.links * {
-  margin: 0px;
-}
-a {
-color: #fff !important;
-text-decoration: none;
-margin-right: 50px !important;
-background: #ed63b6;
-border-radius: 10px;
-padding: 4px 13px;
-}
-
-
-.links > * {
-/*     margin-right: 30px; */
-  display: inline-block;
+    margin: 0px auto;
+    width: 100%;
+    font-family: gardens;
 }
